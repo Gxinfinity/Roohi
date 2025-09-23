@@ -28,6 +28,7 @@ import os
 import re
 from dotenv import load_dotenv
 from pyrogram import filters
+from os import getenv
 
 load_dotenv()
 
