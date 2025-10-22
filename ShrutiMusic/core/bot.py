@@ -19,7 +19,11 @@
 # Contact for permissions:
 # Email: badboy809075@gmail.com
 
+import asyncio
 import uvloop
+
+asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+
 
 uvloop.install()
 
