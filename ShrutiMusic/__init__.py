@@ -25,6 +25,12 @@ from ShrutiMusic.core.dir import dirr
 from ShrutiMusic.core.git import git
 from ShrutiMusic.core.userbot import Userbot
 from ShrutiMusic.misc import dbb, heroku
+import asyncio
+import uvloop
+
+# Set uvloop as the default event loop policy
+asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+
 
 from .logging import LOGGER
 
