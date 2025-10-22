@@ -19,14 +19,6 @@
 # Contact for permissions:
 # Email: badboy809075@gmail.com
 
-import asyncio
-import uvloop
-
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
-
-
-uvloop.install()
-
 import pyrogram
 from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus, ParseMode
