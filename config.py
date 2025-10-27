@@ -34,7 +34,7 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Meenu9050/Ganna-Music-API.git")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -42,8 +42,8 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Hydrax_Music_update")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Hydrax_Music_update")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
 GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
@@ -91,18 +91,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/7q8bfg.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/eehxb4.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/6d4d2eb63e12f3b72a707-14d93d083b96ca079b.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/b1gu2p.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/b1gu2p.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/b1gu2p.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/b1gu2p.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
