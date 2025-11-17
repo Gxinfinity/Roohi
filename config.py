@@ -34,7 +34,7 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Meenu9050/Ganna-Music-API.git")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/Gxinfinity/Roohi")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -42,13 +42,13 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Hydrax_Music_update")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/cuties_logs")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
-YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
-GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
-DONATE = os.getenv("DONATE", "https://t.me/ShrutiBots/91")
-PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
+INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/cuties_logs")
+YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@hogalallaking?si=qkiXalOVDNLIq0Fw")
+GITHUB = os.getenv("GITHUB", "https://t.me/cuties_logs")
+DONATE = os.getenv("DONATE", "https://t.me/dark_x_knight_musiczz_support")
+PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-11-17-302")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ⏱️ Duration & Playlist Settings
