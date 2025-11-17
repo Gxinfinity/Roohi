@@ -68,8 +68,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(os.getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 # 🎧 Spotify Developer Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "6fb7e1766693439b86ec57e3deb3c36f")
+SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "da3f94c6a68d49f6b64a7216ec9eb905")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🧵 Session Strings (Pyrogram V2)
