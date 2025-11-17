@@ -14,10 +14,10 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("26950458"))
+API_ID = "26950458"
 API_HASH = os.getenv("d818b8d530e4a9b209509815ab1b9c7c")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", "7487670897"))
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+OWNER_ID = "7487670897"
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "XxxxxxxxxxxxxxxTxxxxxxxxxxxxxxxX")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "Roohi_Queen_Bot")
 
@@ -26,7 +26,7 @@ BOT_USERNAME = os.getenv("BOT_USERNAME", "Roohi_Queen_Bot")
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002869205475"))
+LOG_GROUP_ID = "-1002869205475"
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
